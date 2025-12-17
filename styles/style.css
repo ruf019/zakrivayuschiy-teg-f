@@ -290,7 +290,7 @@
   text-transform: uppercase;
 }
 
-@media (width <= 376px) {
+@media (width <= 375px) {
   .save__button {
     flex-direction: column;
     row-gap: 8px;
