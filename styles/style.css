@@ -165,11 +165,11 @@
 .button {
   position: relative;
   border: var(--border);
+  color: var(--color-light);
   background-color: var(--color-light);
   transition: box-shadow 0.3s ease;
   cursor: pointer;
   max-block-size: 38px;
-  color: var(--color-light);
 }
 
 .button:focus {
@@ -201,14 +201,13 @@
 }
 
 .card__icon-button {
-  background-color: var(--color-light);
-  border: none;
-  padding: 0;
-  border: 2px solid rgb(0 0 0 / 0);
-  transition: border-color 0.3s ease;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(0 0 0 / 0);
+  padding: 0;
+  background-color: var(--color-light);
+  transition: border-color 0.3s ease;
   cursor: pointer;
 }
 

@@ -36,5 +36,5 @@
   --header-padding: clamp(7.52rem, 6.7788rem + 3.0769vw, 8.025rem) 0;
 
   --contour-color: var(--color-dark);
-  --animation-fill-color: #f00; 
+  --animation-fill-color: #f00;
 }
